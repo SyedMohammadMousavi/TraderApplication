@@ -15,6 +15,15 @@ Application Features:
 9. Auto Run DB Scripts on Launch.
 10. Rest EndPoints
 
+Functionality:
+-------------
+
+1. TraderA Can Create Item.
+2. TraderB Can Create Item.
+3. TraderA Cannot View/Modify/Delete TraderB Items. (Spring Security)
+4. Admin Can View All Items.
+5. TraderA can View/Modify/Delete his own Items.
+
 Application Use Instructions:
 -----------------------------
 
@@ -39,14 +48,6 @@ DB Connection Details (Postgres):
 spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.PostgreSQLDialect
 spring.datasource.url=jdbc:postgresql://localhost:5432/postgres
 
-Functionality:
--------------
-
-1. TraderA Can Create Item.
-2. TraderB Can Create Item.
-3. TraderA Cannot View/Modify/Delete TraderB Items. (Spring Security)
-4. Admin Can View All Items.
-5. TraderA can View/Modify/Delete his own Items.
 
 Application EndPoint Swagger Documentation:
 -----------------------------------
