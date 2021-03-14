@@ -1,0 +1,7 @@
+FROM openjdk:8-jdk-alpine
+
+ARG JAR_FILE=target/items-0.0.1-SNAPSHOT.jar
+
+COPY ${JAR_FILE} items-0.0.1-SNAPSHOT.jar
+
+ENTRYPOINT ["java","-jar","/items-0.0.1-SNAPSHOT.jar"]

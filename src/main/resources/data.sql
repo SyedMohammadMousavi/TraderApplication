@@ -1,0 +1,5 @@
+insert into users (user_id,username,password,is_active,role) values (1,'TraderA','$2a$10$v4LD9NY4uM.ZPCNxQII5e.jMj8gE.p.YVNtf23yAjbGhxnocz8whG',true,'ROLE_TRADER');
+insert into users (user_id,username,password,is_active,role) values (2,'TraderB','$2a$10$v4LD9NY4uM.ZPCNxQII5e.jMj8gE.p.YVNtf23yAjbGhxnocz8whG',true,'ROLE_TRADER');
+insert into users (user_id,username,password,is_active,role) values (3,'TraderC','$2a$10$v4LD9NY4uM.ZPCNxQII5e.jMj8gE.p.YVNtf23yAjbGhxnocz8whG',true,'ROLE_TRADER');
+insert into users (user_id,username,password,is_active,role) values (4,'Admin','$2a$10$v4LD9NY4uM.ZPCNxQII5e.jMj8gE.p.YVNtf23yAjbGhxnocz8whG',true,'ROLE_ADMIN');
+insert into users (user_id,username,password,is_active,role) values (5,'User','$2a$10$v4LD9NY4uM.ZPCNxQII5e.jMj8gE.p.YVNtf23yAjbGhxnocz8whG',true,'ROLE_USER');
